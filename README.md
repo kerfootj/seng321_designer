@@ -1,1 +1,1 @@
-https://kerfootj.github.io/seng321_client/
+https://kerfootj.github.io/seng321_designer/
