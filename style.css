@@ -1,0 +1,141 @@
+body { 
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0.05em;
+    /* color: red; */
+}
+
+ul{
+    margin-left: 4em;
+}
+h2 {
+    color: rgba(31, 42, 87, 0.701);
+}
+
+#navbar-logo {
+    height: 1em;
+    width: 1em;
+}
+
+.text-header-top {
+    color: rgb(238, 241, 245);
+    text-shadow:
+
+        -1px -1px 1px #5a7a29,
+        1px -1px 1px #5a7a29,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+    size: 70px;
+    padding-top: 30px;
+}
+
+.text-header-bottom {
+    color: rgb(238, 241, 245);
+    text-shadow:
+
+        -1px -1px 1px #5a7a29,
+        1px -1px 1px #5a7a29,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+    size: 70px;
+    padding-bottom: 30px;
+}
+
+.text-sub-header {
+    color: rgb(238, 241, 245);
+    text-shadow:
+        -1px -1px 1px #5a7a29,
+        1px -1px 1px #5a7a29,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+    padding-bottom: 10px;
+}
+
+.text-body {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0% 20% 0% 20%;
+}
+
+.display-6 {
+    padding-top: 15px;
+}
+
+a.docs {
+    font-size: 20px;
+    color: #212529;
+}
+
+@media screen and (max-width: 1400px) {
+    .text-body {
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 0% 12% 0% 12%;
+    }
+}
+
+.card {
+    height: 100%
+}
+
+.card-sub-title {
+    color: #24478f;
+    padding-top: 0px;
+    padding-bottom: 8px
+}
+
+.left-pad {
+    padding-left: 8px;
+}
+
+.navbar-brand {
+    color: rgb(184, 187, 190) !important;
+}
+
+.navbar-brand:hover {
+    color:white !important;
+    text-shadow:
+        -0.5px -0.5px 0.5px rgba(255, 48, 2, 0.824),
+        0.5px -0.5px 0.5px rgb(42, 254, 0),
+        -0.5px 0.5px 0.5px rgb(0, 115, 230),
+        0.5px 0.5px 0.5px rgb(0, 122, 244);
+    
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+hr {
+    color: rgb(52, 58, 64);
+    width: 60%;
+    margin-bottom: 1em;
+ 
+}
+
+@media screen and (max-width: 1400px) {
+    hr {
+        color: rgb(52, 58, 64);
+        width: 76%;
+    }
+}
+
+
+#header {
+    font-family: 'Cairo', sans-serif;
+    background:
+        linear-gradient(
+        rgba(52, 58, 64, 0.6),
+        rgba(52, 58, 64, 0.6)
+        ),
+        url(imgs/meeting.jpg) center center / cover no-repeat;
+}
