@@ -15,7 +15,8 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Playfair+Display" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Cairo|Gloria+Hallelujah|Playfair+Display" rel="stylesheet">
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 
     <title>2Towers</title>
     <link rel="SHORTCUT ICON" href="imgs/2tower2.ico" type="image/x-icon" />
@@ -28,8 +29,8 @@
         <!-- Logo -->
         <!-- <a href="" class="navbar-brand"><i class="far fa-building"></i></i>  2Towers  <i class="far fa-building"></i></a> -->
         <a href="" class="navbar-brand">
-            <img src="imgs/2towers.svg" alt="" id="navbar-logo" class="card-img-top">
-            2Towers</a>
+            <i class="fas fa-power-off"></i>
+            G2 Solutions</a>
 
         <!-- Button Collapse -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -60,9 +61,30 @@
 
     <!-- Header Image -->
     <section id="header" class="jumbotron text-center">
-        <h1 class="display-4 text-header-top">2Towers</h1>
-        <h1 class="display-4 text-header-bottom">Debt Consulting</h1>
-        <p class="lead text-sub-header">Let us help you retake control of your financial life and get you debt free faster</p>
+        <h1 class="display-4 text-header-top">G2 Solutions</h1>
+        <div id="typed-strings" class="typing">
+            <p>Top Notch <strong>Developers</strong>^1000</p>
+            <p>Top Notch <strong>Designers</strong>^1000</p>
+            <p>Top Notch <strong>Engineers</strong>^1000</p>
+            <p>Top Notch <strong>Achitects</strong>^1000</p>
+            <p>Top Notch <strong>Product Managers</strong>^1000</p>
+            <p>Top Notch <strong>Testers</strong>^1000</p>
+        </div>
+        <span id="typed"></span>
+        <p>To Deliver The Latest And Greatest</p>
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 40,
+                backSpeed: 80,
+                smartBackspace: true,
+                loop: true,
+                loopCount: Infinity,
+                showCursor: true,
+                cursorChar: '|',
+                autoInsertCss: true,
+            });
+        </script>
     </section>
 
     <!-- Alert / Disclaimer -->
