@@ -24,7 +24,7 @@
     
 </head>
 
-<body data-spy="scroll" data-target="#collapsibleNavbar" data-offset="50">
+<body data-spy="scroll" data-target="#navbar-example" data-offset="50">
     <!-- Navigation -->
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
 
@@ -87,7 +87,7 @@
     </div>
 
     <!-- About Us -->
-    <a class="anchor" id="About-Us"></a>
+    <a class="anchor scrollspy" id="About-Us"></a>
     <section class="text-center">
         <h2 class="display-6">About Us</h2>
         <hr>
@@ -97,7 +97,7 @@
     </section>
 
     <!-- Project Description -->
-    <a class="anchor" id="Project-Description"></a>
+    <a class="anchor scrollspy" id="Project-Description"></a>
     <section class="text-center">
         <h2 class="display-6">Project Description</h2>
         <hr>
@@ -112,7 +112,7 @@
     </section>
 
     <!-- Documents -->
-    <a class="anchor" id="Documents"></a>
+    <a class="anchor scrollspy" id="Documents"></a>
     <section class="text-center" style="padding-bottom: 2em">
         <h2 class="display-6">Documents</h2>
         <hr>
@@ -125,7 +125,7 @@
     </section>
 
     <!-- Our Team -->
-    <a class="anchor" id="Our-Team"></a>
+    <a class="anchor scrollspy" id="Our-Team"></a>
     <section class="text-center">
         <h2 class="display-6">Our Team</h2>
         <hr>
@@ -243,7 +243,7 @@
     </section>
 
     <!-- Contact Us -->
-    <a class="anchor" id="Contact-Us"></a>
+    <a class="anchor scrollspy" id="Contact-Us"></a>
     <section class="text-center">
         <h2 class="display-6">Contact Us</h2>
         <hr>
@@ -261,6 +261,12 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+    <script>
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();   
+        });
+    </script>
 </body>
 </html>

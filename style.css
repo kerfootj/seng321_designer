@@ -96,12 +96,22 @@ a.docs {
         1px 1px 1px rgb(52, 58, 64);
 }
 
+.navbar-brand:active {
+    color:white !important;
+    text-shadow:
+        -1px -1px 1px #232c57,
+        1px -1px 1px #232c57,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+}
+
 a.anchor {
     display: block;
     position: relative;
-    top: -60px;
+    top: 130px;
     visibility: hidden;
 }
+
 
 .container {
     vertical-align: middle
