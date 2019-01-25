@@ -109,7 +109,8 @@ a.anchor {
 }
 
 .container {
-    vertical-align: middle
+    vertical-align: middle;
+    padding: 5em 3em 0em 3em;
 }
 
 hr{
