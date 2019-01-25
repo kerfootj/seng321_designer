@@ -70,10 +70,6 @@ a.docs {
     padding-bottom: 8px
 }
 
-.left-pad {
-    padding-left: 8px;
-}
-
 .navbar-brand {
     color: rgb(184, 187, 190) !important;
 }
@@ -111,7 +107,6 @@ a.anchor {
     top: 130px;
     visibility: hidden;
 }
-
 
 .container {
     vertical-align: middle

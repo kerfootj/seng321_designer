@@ -24,12 +24,12 @@
     
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example" data-offset="50">
+<body>
     <!-- Navigation -->
     <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
 
         <!-- Logo -->
-       <a href="#Top" class="navbar-brand"><img id="nav-svg" src="imgs/logo.svg"> Horizon Software</a>
+       <a href="index.html" class="navbar-brand"><img id="nav-svg" src="imgs/logo.svg"> Horizon Software</a>
 
         <!-- Button Collapse -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,26 +40,25 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a href="#About-Us" class="navbar-brand left-pad">About Us</a>
+                    <a href="#About-Us" class="navbar-brand nav1">About Us</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a href="#Project-Description" class="navbar-brand left-pad">Project Descripiton</a>
+                    <a href="#Project-Description" class="navbar-brand nav2">Project Descripiton</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a href="#Documents" class="navbar-brand left-pad">Documents</a>
+                    <a href="#Documents" class="navbar-brand nav3">Documents</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a href="#Our-Team" class="navbar-brand left-pad">Our Team</a>
+                    <a href="#Our-Team" class="navbar-brand nav4">Our Team</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a href="#Contact-Us" class="navbar-brand left-pad">Contact Us</a>
+                    <a href="#Contact-Us" class="navbar-brand nav5">Contact Us</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Header Image -->
-    <a class="anchor" id="Top"></a>
     <section id="header" class="jumbotron text-center">
         <h1 class="display-4 text-header-top">Horizon Software</h1>
         <span>Top Notch </span>
@@ -263,10 +262,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
-    <script>
-        $(document).ready(function(){
-            $('.scrollspy').scrollSpy();   
-        });
-    </script>
+    <script src="scripts/smooth_scroll.js"></script>
+    <script src="scripts/underline.js"></script>
 </body>
 </html>
