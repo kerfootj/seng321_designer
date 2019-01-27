@@ -1,6 +1,6 @@
 $(window).bind("scroll", function() { 
     var $sec1 = $('#About-Us').offset().top;
-    var $sec2 = $('#Project-Description').offset().top;
+    var $sec2 = $('#Projects').offset().top;
     var $sec3 = $('#Documents').offset().top;
     var $sec4 = $('#Our-Team').offset().top; 
     var $sec5 = $('#Contact-Us').offset().top;   
