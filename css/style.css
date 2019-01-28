@@ -1,0 +1,160 @@
+body { 
+    position: relative;
+    background-color: #2a2e33;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+ul{
+    margin-left: 4em;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+h2, h3{
+    color: #e9e9e9;
+}
+
+hr{
+    border: 0;
+    height: 0;
+    color: rgb(52, 58, 64);
+    width: 60%;
+    margin-bottom: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 1400px) {
+    hr {
+        color: rgb(52, 58, 64);
+        width: 76%;
+    }
+}
+
+#header {
+    font-family: 'Cairo', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow:
+        -1px -1px 1px #30418da2,
+        1px -1px 1px #30418da2,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+    background:
+        linear-gradient(
+        rgba(52, 58, 64, 0.6),
+        rgba(52, 58, 64, 0.6)
+        ),
+        url(imgs/buildings.jpg) center center / cover no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    #header {
+        font-size: 1.5em;
+    }
+}
+
+.text-white {
+    color: #e9e9e9;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0% 20% 0% 20%;
+}
+
+.text-white-alt {
+    color: #e9e9e9;
+    text-align: justify;
+    padding: 0% 8% 0% 8%;
+}
+
+.text-au {
+    color: #e9e9e9;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0% 25% 0% 25%;
+}
+
+.text-proj-hd {
+    color: #1761a0;
+}
+
+.text-proj {
+    color: #e9e9e9;
+}
+
+@media screen and (max-width: 1400px) {
+    .text-white {
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 0% 12% 0% 12%;
+    }
+
+    .text-au {
+        color: #e9e9e9;
+        text-align: justify;
+        text-justify: inter-word;
+        padding: 0% 12% 0% 12%;
+    }
+}
+
+.alert-warning {
+    color: #504011;
+    background-color: #f7db82;
+}
+
+.display-6 {
+    padding-top: 15px;
+}
+
+a.docs {
+    font-size: 20px;
+}
+
+.card {
+    height: 100%;
+    color: #e9e9e9;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.card-sub-title {
+    color: #2f83c9;
+    padding-top: 0px;
+    padding-bottom: 8px
+}
+
+.navbar-brand {
+    color: rgb(184, 187, 190) !important;
+}
+
+.imgs {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
+
+.navbar-brand:hover {
+    color:white !important;
+    text-shadow:
+        -1px -1px 1px #232c57,
+        1px -1px 1px #232c57,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: 130px;
+    visibility: hidden;
+}

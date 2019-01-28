@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+}
+  
+.bg { 
+    background: url("../imgs/Death-Star.jpeg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(201, 199, 199);
+    text-shadow:
+        -1px -1px 1px rgb(52, 58, 64),
+        1px -1px 1px rgb(52, 58, 64),
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    color: rgb(184, 187, 190) !important;
+}
+
+.navbar-brand:hover {
+    color:white !important;
+    text-shadow:
+        -1px -1px 1px #232c57,
+        1px -1px 1px #232c57,
+        -1px 1px 1px rgb(52, 58, 64),
+        1px 1px 1px rgb(52, 58, 64);
+}
