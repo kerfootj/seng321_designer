@@ -49,7 +49,7 @@ hr{
         rgba(52, 58, 64, 0.6),
         rgba(52, 58, 64, 0.6)
         ),
-        url(imgs/buildings.jpg) center center / cover no-repeat;
+        url("../imgs/buildings.jpg") center center / cover no-repeat;
 }
 
 @media screen and (max-width: 800px) {
